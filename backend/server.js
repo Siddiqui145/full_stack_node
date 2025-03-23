@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.send('Server is Ready');
 });
 
-app.get('/quotes', (req, res) => {
+app.get('/api/jokes', (req, res) => {
     const quotes = [
         { "id": 1, "title": "Inspiration", "content": "Believe you can and you're halfway there." },
         { "id": 2, "title": "Motivation", "content": "The secret of getting ahead is getting started." },
